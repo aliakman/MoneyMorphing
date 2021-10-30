@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3752918300456588691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3752918300456588689}
+  - component: {fileID: 3752918300456588693}
+  - component: {fileID: 3752918300456588690}
+  m_Layer: 0
+  m_Name: MoneyPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3752918300456588689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3752918300456588691}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3752918300456588693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3752918300456588691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83ea5444c1854c24a763ddbdab547e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moneysOnZs: []
+  prefabCount: 10000
+  moneyPrefab: {fileID: 3385808859433353259, guid: 66491c7e1deb84139ba67c29fd936e4d,
+    type: 3}
+  prefabList: []
+  lengthX: 3
+  lengthY: 2
+  lengthZ: 7
+  offsetX: 1
+  offsetY: 0.2
+  offsetZ: -0.4
+  initAltitude: 0.3
+  placementDelay: 0.2
+  moneyPrefabs:
+  - {fileID: 2055230397187565430, guid: 76e495ec2610f4051a8df50b7241309a, type: 3}
+  - {fileID: 3385808859433353259, guid: 66491c7e1deb84139ba67c29fd936e4d, type: 3}
+  - {fileID: 3219815950731047394, guid: 5a1823ceb47ad40ebad251d3c65e8d5f, type: 3}
+  activeList: []
+  listY: []
+  listX: []
+  keys: []
+--- !u!114 &3752918300456588690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3752918300456588691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf87b70639874a1eb8bbab2e4103224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particlePrefab: {fileID: 2633226251295144371, guid: f407529e0ac0149cbae9fbbb581a2789,
+    type: 3}
+  particleList: []
+  particleCount: 1000
